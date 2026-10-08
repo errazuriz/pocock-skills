@@ -1,0 +1,5 @@
+interface:
+  display_name: "Grill Problem"
+  short_description: "Understand a fuzzy problem through interview"
+policy:
+  allow_implicit_invocation: false

@@ -48,6 +48,9 @@ Sessions grow too long when you try to talk through an ungrillable question. The
 **How many questions should I expect, and how do I know when it ends?**
 Count rounds, not questions. Forty-six questions across four rounds is an ordinary session. It ends when the frontier is empty: it has visited every branch, and nothing is left as an unstated assumption.
 
+**What if I don't know what the problem is yet?**
+Then you have nothing to stress-test, only symptoms. If you have the beta `grill-problem` skill installed, `grill-me` tells you to run `/grill-problem` instead: it interviews you about the problem itself, separates symptoms from causes, and writes down a `PROBLEM.md` you can grill a plan against afterwards.
+
 **It asked me two hundred questions. What went wrong?**
 Usually the scope was too large. Ask the agent to break the work into smaller pieces first, then grill each one. Very long sessions also drift into the **[dumb zone](https://www.aihero.dev/ai-coding-dictionary/smart-zone)**, where the [context window](https://www.aihero.dev/ai-coding-dictionary/context-window) is full enough that the questions get worse.
 
